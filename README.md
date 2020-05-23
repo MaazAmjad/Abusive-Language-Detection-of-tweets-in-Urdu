@@ -13,6 +13,7 @@ For text normalization in our experiment, we built typo and slang words dictiona
 
 
 Furthermore, we also built abusive lexicon list named **abusive.csv** that can be used for feature extraction.
+
 ---
 
 ## More detail
