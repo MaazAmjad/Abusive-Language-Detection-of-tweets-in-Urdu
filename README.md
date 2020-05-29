@@ -3,16 +3,11 @@
 ---
 
 ## About this data
-Here we provide our dataset for multi-label hate speech and abusive language detection in the Indonesian Twitter. The main dataset can be seen at **re_dataset** with labels information as follows:
+Here we provide our dataset for automatic abusive language detection in Urdu language using Twitter postings. The main dataset can be seen with labels information as follows:
 
-For each label, `1` means `yes` (tweets including that label), `0` mean `no` (tweets are not included in that label). 
+For each label, 1 means yes (the tweet is abusive), 0 means no (the tweet is not abusive).
 
-Due to the Twitter's Terms of Service, we do not provide the tweet ID. All username and URL in this dataset are changed into USER and URL. 
-
-For text normalization in our experiment, we built typo and slang words dictionaries named **---**, that contain two columns (first columns are the typo and slang words, and the second one is the formal words). Here the examples of mapping:
-
-
-Furthermore, we also built abusive lexicon list named **abusive.csv** that can be used for feature extraction.
+Due to Twitter's Terms of Service, we do not provide the tweet ID. 
 
 ---
 
